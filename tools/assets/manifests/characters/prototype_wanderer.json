@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "character_id": "prototype_wanderer",
+  "layer": "flattened",
+  "production": false,
+  "license": "diagnostic-placeholder-or-external-supplied-art",
+  "canvas": { "width": 128, "height": 192, "format": "RGBA8" },
+  "pivot": { "x": 64, "y": 184, "convention": "bottom-center" },
+  "directions": ["s", "sw", "w", "nw", "n", "ne", "e", "se"],
+  "states": {
+    "idle": { "frames": 4, "duration": "1200ms", "type": "back_forth" },
+    "walk": { "frames": 8, "duration": "640ms", "type": "looped" }
+  },
+  "source_layout": "<source_root>/<state>/<direction>/<frame:02>.png",
+  "atlas": { "cell_width": 132, "cell_height": 196, "padding": 2, "columns": 12, "rows": 8 }
+}
